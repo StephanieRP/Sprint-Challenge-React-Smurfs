@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Smurf = props => {
+const SingleSmurf = props => {
   return (
     <div className="Smurf">
       <h3>{props.name}</h3>
@@ -15,7 +15,7 @@ const Smurf = props => {
   );
 };
 
-Smurf.defaultProps = {
+SingleSmurf.defaultProps = {
   smurf: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
@@ -25,4 +25,4 @@ Smurf.defaultProps = {
   )
 };
 
-export default Smurf;
+export default SingleSmurf;

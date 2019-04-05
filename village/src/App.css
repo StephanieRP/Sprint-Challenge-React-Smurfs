@@ -1,3 +1,49 @@
 .App {
   text-align: center;
 }
+
+.header {
+  background: gold;
+  padding: 1.7rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul a {
+  text-decoration: none;
+  color: white;
+  background: firebrick;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.header ul a:hover {
+  color: gray;
+  background: white;
+}
+
+.Smurfs ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* width: 90%; */
+}
+
+.Smurf {
+  background: gray;
+  border: solid 5px gold;
+  width: 25%;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.Smurf button {
+  color: white;
+  background: firebrick;
+  outline: none;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+}
