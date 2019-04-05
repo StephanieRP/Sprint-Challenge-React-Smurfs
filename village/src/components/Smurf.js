@@ -2,6 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Smurf = props => {
+  console.log("smurf", props);
+
+  const removeSmurf = e => {
+    e.preventDefault();
+    props.deleteSmurf(props.id);
+  };
   return (
     <div className="Smurf">
       <h3>{props.name}</h3>
@@ -9,7 +15,7 @@ const Smurf = props => {
       <p>{props.age} smurf years old</p>
       <div>
         <button> Edit Smurf </button>
-        <button> Delete Smurf </button>
+        <button onClick={removeSmurf}> Delete Smurf </button>
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ class SmurfForm extends Component {
     this.setState({
       name: "",
       age: "",
-      height: " cm"
+      height: ""
     });
 
     alert("New Smurf has been successfully added");
@@ -34,6 +34,7 @@ class SmurfForm extends Component {
   render() {
     return (
       <div className="SmurfForm">
+        <h2>Add New Smurf</h2>
         <form onSubmit={this.addNewSmurf}>
           <input
             onChange={this.handleInputChange}
