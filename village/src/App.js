@@ -78,7 +78,7 @@ class App extends Component {
 
         <Route
           exact
-          path="/:smurfsid"
+          path="/smurf/:smurfsid"
           render={props => (
             <SingleSmurf {...props} smurfs={this.state.smurfs} />
           )}

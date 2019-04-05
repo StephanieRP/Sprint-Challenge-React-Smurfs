@@ -11,7 +11,7 @@ const Smurf = props => {
   };
   return (
     <div className="Smurf">
-      <Link to={`/${props.id}`}>
+      <Link to={`/smurf/${props.id}`}>
         <h3>{props.name}</h3>
       </Link>
       <strong>{props.height} tall</strong>

@@ -7,6 +7,9 @@ const SingleSmurf = props => {
     return `${smurf.id}` === props.match.params.smurfsid;
   });
   if (!smurf) return <h3>Where are the smurfs hiding...</h3>;
+
+  console.log(props);
+
   return (
     <div>
       <Link exact to="/" className="btn">
