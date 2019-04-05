@@ -22,7 +22,7 @@ class App extends Component {
         this.setState({
           smurfs: res.data
         });
-        console.log(res);
+        // console.log(res);
       })
       .catch(err => {
         console.log("Something bad happened..", err);
@@ -37,7 +37,7 @@ class App extends Component {
           smurfs: res.data
         });
 
-        console.log(res);
+        // console.log(res);
       })
       .catch(err => {
         console.log(err);
@@ -72,16 +72,17 @@ class App extends Component {
         />
         <Route
           exact
-          path="/addSmurf"
+          path="/add"
           render={props => <SmurfForm {...props} addSmurf={this.addSmurf} />}
         />
-        {/* <Route
+
+        <Route
           exact
-          path="/:id"
+          path="/:smurfsid"
           render={props => (
             <SingleSmurf {...props} smurfs={this.state.smurfs} />
           )}
-        /> */}
+        />
       </div>
     );
   }

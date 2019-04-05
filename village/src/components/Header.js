@@ -8,7 +8,7 @@ function Header(props) {
         <NavLink exact to="/">
           Home
         </NavLink>
-        <NavLink to="/addSmurf">Add Smurf</NavLink>
+        <NavLink to="/add">Add Smurf</NavLink>
       </ul>
     </div>
   );

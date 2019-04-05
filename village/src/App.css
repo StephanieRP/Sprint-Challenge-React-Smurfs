@@ -40,6 +40,16 @@
   padding-bottom: 1rem;
 }
 
+.Smurf a {
+  text-decoration: none;
+  color: white;
+}
+
+.Smurf a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
 .Smurf button {
   color: white;
   background: firebrick;
@@ -80,4 +90,16 @@
   padding: 1rem 2rem;
   margin-top: 2rem;
   text-transform: uppercase;
+}
+
+.SingleSmurf {
+  margin: 4rem auto;
+  padding: 3rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  color: firebrick;
+  text-decoration: none;
+  margin-top: 2rem;
 }
