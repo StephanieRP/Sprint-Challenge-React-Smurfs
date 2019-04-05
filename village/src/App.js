@@ -75,14 +75,6 @@ class App extends Component {
           path="/add"
           render={props => <SmurfForm {...props} addSmurf={this.addSmurf} />}
         />
-
-        <Route
-          exact
-          path="/smurf/:smurfsid"
-          render={props => (
-            <SingleSmurf {...props} smurfs={this.state.smurfs} />
-          )}
-        />
       </div>
     );
   }
