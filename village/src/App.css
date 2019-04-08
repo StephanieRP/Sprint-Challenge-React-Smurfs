@@ -1,3 +1,105 @@
 .App {
   text-align: center;
 }
+
+.header {
+  background: gold;
+  padding: 1.7rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul a {
+  text-decoration: none;
+  color: white;
+  background: firebrick;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.header ul a:hover {
+  color: gray;
+  background: white;
+}
+
+.Smurfs ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* width: 90%; */
+}
+
+.Smurf {
+  background: gray;
+  border: solid 5px gold;
+  width: 25%;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.Smurf a {
+  text-decoration: none;
+  color: white;
+}
+
+.Smurf a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.Smurf button {
+  color: white;
+  background: firebrick;
+  outline: none;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+}
+
+.Smurf button:first-of-type {
+  background: greenyellow;
+  color: black;
+}
+
+.Smurf button:hover,
+.SmurfForm button:hover {
+  color: gray;
+  background: white;
+}
+.SmurfForm {
+  background: gray;
+  border: solid 4px gold;
+  margin: 5rem auto;
+  padding: 2rem;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.SmurfForm input {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.SmurfForm button {
+  background: greenyellow;
+  color: black;
+  outline: none;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.SingleSmurf {
+  margin: 4rem auto;
+  padding: 3rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  color: firebrick;
+  text-decoration: none;
+  margin-top: 2rem;
+}
